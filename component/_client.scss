@@ -1,0 +1,120 @@
+#client{
+    padding-top: 283px;
+    padding-bottom: 285px;
+    position: relative;
+    img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .client_deteils01{
+        position: relative;
+        text-align: center;
+        h2{
+            font-family: "Open Sans", serif;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 68px;
+            color: #1BBF00;
+        }
+        p{
+            font-family: "Open Sans", serif;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+            color: #141135;
+            margin-top: 24px;
+         }
+
+        .border {
+            width: 0;
+            height: 132px;
+            background: #4F585F;
+            position: absolute;
+            top: 0px;
+            left: 270px;
+        }
+    }
+
+    .client_deteils02{
+        position: relative;
+        text-align: center;
+        h2{
+            font-family: "Open Sans", serif;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 68px;
+            color: #1BBF00;
+        }
+        p{
+            font-family: "Open Sans", serif;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+            color: #141135;
+            margin-top: 24px;
+         }
+
+        .border {
+            width: 0;
+            height: 132px;
+            background: #4F585F;
+            position: absolute;
+            top: 0px;
+            left: 290px;
+        }
+    }
+
+    .client_deteils03{
+        position: relative;
+        text-align: center;
+        h2{
+            font-family: "Open Sans", serif;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 68px;
+            color: #1BBF00;
+        }
+        p{
+            font-family: "Open Sans", serif;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+            color: #141135;
+            margin-top: 24px;
+        }
+
+        .border {
+            width: 0;
+            height: 132px;
+            background: #4F585F;
+            position: absolute;
+            top: 0px;
+            left: 260px;
+        }
+    }
+
+    .client_deteils04{
+        text-align: center;
+        h2{
+            font-family: "Open Sans", serif;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 68px;
+            color: #1BBF00;
+        }
+        p{
+            width: 280px;
+            font-family: "Open Sans", serif;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+            color: #141135;
+            margin-top: 24px;
+        }
+
+
+    }
+}

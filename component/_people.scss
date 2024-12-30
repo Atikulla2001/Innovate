@@ -1,0 +1,62 @@
+#people{
+    
+    background: #F8F8FF;
+    padding: 100px 0;
+    .manimg{
+        position: relative;
+    }
+    .man_img{
+        position: absolute;
+        top: 75px;
+        left: 430px;
+    }
+    .man_img2{
+        position: absolute;
+        top: 280px;
+        left: 510px;
+    }
+    h2{
+        font-family: "Open Sans", serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #141135;
+        text-align: center;
+        margin-bottom: 110px;
+    }
+    .img_text{
+        padding: 168px 173px;
+        -webkit-box-shadow: -15px 30px 50px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -15px 30px 50px 0px rgba(0,0,0,0.75);
+        box-shadow: -15px 30px 50px 0px rgba(0,0,0,0.75);
+        p{
+            width: 800px;
+            font-family: "Paprika", serif;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            color: #726E9E;
+            text-align: center;
+            margin: 0 auto;
+        }
+        h3{
+            font-family: "Open Sans", serif;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 40px;
+            color: #221A2C;
+            text-align: center;
+            margin-top: 48px;
+            margin-bottom: 4px;
+        }
+        h4{
+            font-family: "Paprika", serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            color: #726E9E;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+    }
+}
