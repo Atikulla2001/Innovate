@@ -383,25 +383,18 @@ header nav button {
 
 #real {
   padding: 91px 109px;
-  background: #FFFFFF;
-  position: relative;
 }
-#real .picture {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-#real .text_area {
+#real .real_text_part {
   text-align: center;
 }
-#real .text_area h2 {
+#real .real_text_part h2 {
   font-family: "Open Sans", serif;
   font-weight: 700;
   font-size: 48px;
   color: #141135;
 }
-#real .text_area p {
-  width: 518px;
+#real .real_text_part p {
+  width: 558px;
   font-family: "Paprika", serif;
   font-weight: 400;
   font-size: 18px;
@@ -410,26 +403,26 @@ header nav button {
   margin: 0 auto;
   margin-top: 23px;
 }
-#real .text__area {
-  margin-left: 35px;
+#real .real_text__part {
+  text-align: center;
 }
-#real .text__area h3 {
+#real .real_text__part h3 {
   font-family: "Open Sans", serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.5px;
+  color: #141135;
 }
-#real .text__area p {
+#real .real_text__part p {
   width: 343px;
   font-family: "Paprika", serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: #726E9E;
-}
-#real .img_area .img1 {
-  z-index: -1;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 #plan {
@@ -558,8 +551,20 @@ header nav button {
 }
 
 #like {
-  background: #F9F9FB;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+#like h2 {
+  margin-bottom: 64px;
+}
+#like .like_img02 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#like .like_part02 {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #like h2 {
   font-family: "Open Sans", serif;
@@ -569,83 +574,198 @@ header nav button {
   letter-spacing: -2px;
   color: #030314;
 }
-#like .item_img {
-  margin-top: 64px;
+#like .like_text {
+  margin-left: 80px;
 }
-#like .item_text h3 {
+#like .like_text h5 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+}
+#like .like_text h5:hover {
+  color: #1BBF00;
+}
+#like .like_text h5 .like_01 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+  margin-left: 35px;
+}
+#like .like_text h5 .like_01:hover {
+  color: #1BBF00;
+}
+#like .like_text h5 .like_02 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+  margin-left: 8px;
+}
+#like .like_text h5 .like_02:hover {
+  color: #1BBF00;
+}
+#like .like_text h5 .like_03 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+  margin-left: 24px;
+}
+#like .like_text h5 .like_03:hover {
+  color: #1BBF00;
+}
+#like .like_text h5 .like_04 {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -1px;
+  color: #726E9E;
+  margin-left: 12px;
+}
+#like .like_text h5 .like_04:hover {
+  color: #1BBF00;
+}
+#like .like_big_letter {
+  margin-left: 80px;
+}
+#like .like_big_letter h3 {
   font-family: "Open Sans", serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 55px;
+  letter-spacing: 1.5px;
   color: #141135;
 }
-#like .item_text h3 span {
-  margin-top: 20px;
+#like .like_button {
+  margin-left: 80px;
 }
-#like .item_text a {
+#like .like_button a {
   font-family: "Open Sans", serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #141135;
-  margin-top: 24px;
-  display: inline-block;
   position: relative;
 }
-#like .item_text a::after {
+#like .like_button a::after {
   content: "";
   width: 27px;
   height: 40px;
+  background: rgba(27, 191, 0, 0.5);
   border-radius: 0 100px 100px 0;
-  color: #1BBF00;
   position: absolute;
-  top: 0;
+  top: -5px;
+  right: -14px;
+}
+#like .like_img {
+  position: absolute;
+  bottom: 0;
   left: 0;
+  z-index: -1;
 }
 
 footer {
+  padding-top: 140px;
+  padding-bottom: 100px;
   background: #48409C;
 }
-footer .footer_top {
-  padding-top: 147px;
-}
-footer .footer_title p {
+footer .footer_p {
+  width: 449px;
   font-family: "Nunito", serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 180%;
-  color: #FEFEFE;
+  color: rgba(254, 254, 254, 0.5);
   margin-top: 44px;
 }
-footer .footer_item h3 {
+footer .footer_f h3 {
   font-family: "Open Sans", serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   line-height: 140%;
-  color: #FEFEFE;
+  color: rgba(254, 254, 254, 0.5);
 }
-footer .footer_item ul {
-  gap: 30px;
+footer .footer_f ul {
+  display: flex;
+  flex-direction: column;
   padding: 0;
+  gap: 20px;
 }
-footer .footer_item ul li {
+footer .footer_f ul li {
   list-style: none;
 }
-footer .footer_item ul li a {
+footer .footer_f ul li a {
   font-family: "Nunito", serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   line-height: 120%;
-  color: #FEFEFE;
+  color: rgba(254, 254, 254, 0.5);
+}
+footer .footer_pr h3 {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: rgba(254, 254, 254, 0.5);
+}
+footer .footer_pr ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+footer .footer_pr ul li {
+  list-style: none;
+}
+footer .footer_pr ul li a {
+  font-family: "Nunito", serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgba(254, 254, 254, 0.5);
+}
+footer .footer_bottom {
+  position: relative;
+  margin-top: 189px;
 }
 footer .footer_bottom p {
   font-family: "Nunito", serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 180%;
-  color: #FEFEFE;
+  color: rgba(254, 254, 254, 0.5);
 }
-footer .footer_bottom p span {
-  margin-left: 790px;
-  padding-top: 50px;
+footer .footer_bottom p .footer_bottom_pri {
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: rgba(254, 254, 254, 0.5);
+  margin-left: 740px;
+  position: absolute;
+  top: 0;
+  right: -380px;
+}
+footer .footer_bottom p .footer_bottom_ter {
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: rgba(254, 254, 254, 0.5);
+  padding-top: 20px;
+  margin-left: 890px;
+  position: absolute;
+  top: -20px;
+  right: -550px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,19 @@
 #like{
-    background: #F9F9FB;
-    padding: 100px 0;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    h2{
+        margin-bottom: 64px;
+    }
+    .like_img02{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .like_part02{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
     h2{
         font-family: "Open Sans", serif;
         font-weight: 700;
@@ -9,40 +22,106 @@
         letter-spacing: -2px;
         color: #030314;
     }
-    .item_img{
-        margin-top: 64px;
+    .like_text{
+        margin-left: 80px;
+        h5{
+            font-family: "Quicksand", serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -1px;
+            color: #726E9E;
+            &:hover{
+                color: #1BBF00;
+            }
+            .like_01{
+                font-family: "Quicksand", serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -1px;
+                color: #726E9E;
+                margin-left: 35px;
+                &:hover{
+                    color: #1BBF00;
+                }
+            }
+            .like_02{
+                font-family: "Quicksand", serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -1px;
+                color: #726E9E;
+                margin-left: 8px;
+                &:hover{
+                    color: #1BBF00;
+                }
+            }
+            .like_03{
+                font-family: "Quicksand", serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -1px;
+                color: #726E9E;
+                margin-left: 24px;
+                &:hover{
+                    color: #1BBF00;
+                }
+            }
+            .like_04{
+                font-family: "Quicksand", serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: -1px;
+                color: #726E9E;
+                margin-left: 12px;
+                &:hover{
+                    color: #1BBF00;
+                }
+            }
+        }
     }
-  
-    .item_text{
+    .like_big_letter{
+        margin-left: 80px;
         h3{
             font-family: "Open Sans", serif;
             font-weight: 700;
             font-size: 30px;
             line-height: 55px;
+            letter-spacing: 1.5px;
             color: #141135;
-            span{
-                margin-top: 20px;
-            }
         }
+    }
+    .like_button{
+        margin-left: 80px;
         a{
             font-family: "Open Sans", serif;
             font-weight: 700;
             font-size: 18px;
             line-height: 24px;
             color: #141135;
-            margin-top: 24px;
-            display: inline-block;
             position: relative;
             &::after{
                 content: "";
                 width: 27px;
                 height: 40px;
+                background: rgba(27, 191, 0, 0.5);
                 border-radius: 0 100px 100px 0;
-                color: #1BBF00;
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: -5px;
+                right: -14px;
             }
         }
     }
+
+    .like_img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
 }

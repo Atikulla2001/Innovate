@@ -1,0 +1,145 @@
+@media (min-width:320px) and (max-width:575px){
+    .navbar-brand img{
+        width: 85px;
+    }
+    header nav ul{
+        gap: 10px;
+    }
+    header nav button {
+        background: #1BBF00;
+        font-size: 16px;
+        color: #000000;
+        padding: 8px 10px;
+        margin-top: 10px;
+    }
+    #banner .overlay h1 {
+        font-size: 50px;
+    }
+    #banner .overlay p {
+        font-size: 17px;
+        margin-top: 115px;
+    }
+    #banner .overlay button {
+        font-size: 14px;
+        color: #000000;
+        padding: 10px 20px;
+    }
+    #banner .shap_tow {
+        width: 70px;
+        position: absolute;
+        top: 157px;
+        left: 8px;
+    }
+    #banner .shap_one {
+        width: 70px;
+        position: absolute;
+        bottom: 290px;
+        right: 30px;
+    }
+    #banner .overlay {
+        padding: 140px 0 70px 0;
+    }
+
+
+
+    #client {
+        padding-top: 40px;
+        padding-bottom: 25px;
+        position: relative;
+    }
+    #client .client_deteils01 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils01 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client img {
+        width: 130px;
+    }
+    #client .client_deteils02 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils02 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils03 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils03 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils04 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils04 p {
+        width: auto;
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils01 .border {
+        display: none;
+     }
+    #client .client_deteils02 .border {
+        display: none;
+     }
+    #client .client_deteils03 .border {
+       display: none;
+    }
+    #Why .text_design .green_circle {
+        width: 15px;
+        height: 15px;
+        top: -70px;
+        left: -23px;
+    }
+    #Why .text_design .akasi_circle {
+        width: 15px;
+        height: 15px;
+        top: -70px;
+        left: -15px;
+    }
+    #Why .text_design h2 {
+        font-size: 14px;
+        top: -83px;
+        left: 10px;
+    }
+    #Why .shap {
+     width: 130px;
+    }
+    #Why .text_area h2 {
+        font-size: 30px; 
+    }
+    #Why .text_area p {
+        width: auto;
+        font-size: 16px;
+    }
+    #Why .text_area button {
+        font-size: 14px;
+        color: #000000;
+        padding: 10px 19px;
+    }
+    #why .text_area{
+        margin-top: -65px;
+        margin-bottom: -65px;
+    }
+    #what .item_text h2 {
+        font-size: 30px;
+    }
+    #what {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #what .item_text p {
+        width: auto;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #what .item_text button {
+        font-size: 14px;
+        padding: 10px 19px;
+        color: #000000;
+    }
+}
