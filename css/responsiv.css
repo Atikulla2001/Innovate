@@ -1,0 +1,978 @@
+@media (min-width:320px) and (max-width:575px){
+
+
+    .navbar-brand img{
+        width: 85px;
+    }
+    header nav ul{
+        gap: 10px;
+    }
+    header nav button {
+        background: #1BBF00;
+        font-size: 16px;
+        color: #000000;
+        padding: 8px 10px;
+        margin-top: 10px;
+    }
+    #banner .overlay h1 {
+        font-size: 50px;
+    }
+    #banner .overlay p {
+        font-size: 17px;
+        margin-top: 115px;
+    }
+    #banner .overlay button {
+        font-size: 14px;
+        color: #000000;
+        padding: 10px 20px;
+    }
+    #banner .shap_tow {
+        width: 70px;
+        position: absolute;
+        top: 157px;
+        left: 8px;
+    }
+    #banner .shap_one {
+        width: 70px;
+        position: absolute;
+        bottom: 290px;
+        right: 30px;
+    }
+    #banner .overlay {
+        padding: 140px 0 70px 0;
+    }
+
+    /* -------- banner part end --------- */
+
+
+    /* -------- client part start --------- */
+
+    #client {
+        padding-top: 40px;
+        padding-bottom: 25px;
+        position: relative;
+    }
+    #client .client_deteils01 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils01 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client img {
+        width: 130px;
+    }
+    #client .client_deteils02 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils02 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils03 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils03 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils04 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils04 p {
+        width: auto;
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils01 .border {
+        display: none;
+     }
+    #client .client_deteils02 .border {
+        display: none;
+     }
+    #client .client_deteils03 .border {
+       display: none;
+    }
+
+    /* -------- client part end --------- */
+
+    /* -------- why part start --------- */
+
+    #Why {
+        padding: 40px 1px;
+    }
+
+    #Why .text_design .green_circle {
+        width: 20px;
+        height: 20px;
+       
+    }
+
+    #Why .text_design .akasi_circle {
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    #Why .text_design h2 {
+        width: 319px;
+        font-size: 16px;
+    }
+
+    #Why .shap {
+        width: 227px;
+    }
+
+    #Why .text_area h2 {
+        font-size: 20px;
+        color: #141135;
+    }
+
+    #Why .text_area p {
+        width: auto;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #Why .text_area button {
+        color: #000000;
+        padding: 5px 6px;
+        font-size: 14px;
+    }
+
+    /* -------- why part end --------- */
+
+
+    /* -------- what part start --------- */
+
+    #what {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    #what .item_text h2 {
+        font-size: 20px;
+    }
+
+    #what .item_text p {
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    #what .item_text button {
+        font-size: 14px;
+        color: #000000;
+        padding: 5px 6px;
+    }
+
+    #what .item .text h2 {
+        width: auto;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #what .item .text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #what .item a {
+        font-size: 14px;
+    }
+
+    #what .item a::after {
+        width: 19px;
+        height: 24px;
+        top: 0px;
+        right: -4px;
+    }
+
+    /* -------- what part end --------- */
+
+    /* -------- real part start --------- */
+
+    #real {
+        padding: 15px 0px;
+    }
+
+    #real .real_text_part {
+        text-align: left;
+    }
+
+    #real .real_text_part h2 {
+        font-size: 20px;
+    }
+
+    #real .real_text_part p {
+        width: auto;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    #real .real_img__part img{
+        width: 35px;
+    }
+
+    #real .real_text__part {
+        text-align: left;
+    }
+
+    #real .real_text__part h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #real .real_text__part p {
+        width: auto;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    #real .real_img_part img{
+        width: 100%;
+    }
+
+    /* -------- real part end --------- */
+
+    /* -------- plan part start --------- */
+
+    #plan {
+        padding: 15px 0;
+    }
+
+    #plan h2 {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 31px;
+    }
+
+    #plan .item01 {
+        width: auto;
+        padding: 15px 0;
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.30);
+    }
+
+    #plan .item01 h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    #plan .emozi{
+        width: 100%;
+    }
+
+    #plan .item01 h4 span {
+        font-size: 14px;
+        top: 5px;
+        left: 115px;
+    }
+
+
+    #plan .item01 h4 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+
+    #plan .item01 p {
+        width: auto;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+
+    /* -------- plan part end --------- */
+    
+    /* -------- people part start --------- */
+
+    #people {
+        background: #F8F8FF;
+        padding: 15px 0;
+    }
+
+    #people h2 {
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    #people .img_text {
+        padding: 40px 0px;
+        box-shadow: -15px 30px 50px 0px rgba(0, 0, 0, 0.30);
+    }
+
+    #people .img_text p {
+        width: auto;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    #people .man_img {
+        width: 75px;
+        top: 50px;
+        left: 115px;
+    }
+
+    #people .man_img2 {
+        top: 0px;
+        left: 0px;
+    }
+
+    #people .man_img2 {
+        width: 50px;
+        top: 110px;
+        left: 130px;
+    }
+
+    #people .img_text h3 {
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #people .img_text h4 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* -------- people part end --------- */
+
+    /* -------- like part start --------- */
+
+    #like {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    #like h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: -5px;
+    }
+
+    #like .like_img01 img{
+        width: 100%;
+    }
+
+    #like .like_text {
+        margin-left: 1px;
+    }
+
+    #like .like_text h5 {
+        font-size: 14px;
+    }
+
+    #like .like_text h5 .like_01 {
+        font-size: 14px;
+        margin-left: 6px;
+    }
+
+    #like .like_text h5 .like_02 {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    #like .like_text h5 .like_03 {
+        font-size: 14px;
+        margin-left: 1px;
+    }
+
+    #like .like_text h5 .like_04 {
+        font-size: 14px;
+        margin-left: 1px;
+    }
+
+    #like .like_big_letter {
+        margin-left: 1px;
+    }
+
+    #like .like_big_letter h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #like .like_button a {
+        font-size: 14px;
+    }
+
+    #like .like_button a::after {
+        width: 18px;
+        height: 25px;
+        top: -1px;
+        right: -7px;
+    }
+
+    #like .like_img02 img{
+        width: 100%;
+    }
+
+    #like .like_img02 {
+        margin-top: 20px;
+        margin-bottom: -58px;
+    }
+
+    #like .like_img03 img{
+        width: 100%;
+    }
+
+    #like .like_img {
+       width: 145px;
+    }
+
+    /* -------- like part end --------- */
+
+    /* -------- footer part start --------- */
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    footer .footer_logo img{
+        width: 50px;
+    }
+
+    footer .footer_p {
+        width: auto;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    footer .footer_bottom {
+        margin-top: 30px;
+    }
+
+    footer .footer_bottom p {
+        font-size: 15px;
+    }
+
+    footer .footer_f h3 {
+        font-size: 15px;
+    }
+
+    footer .footer_f ul {
+        gap: 5px;
+    }
+
+    footer .footer_f ul li a {
+        font-size: 14px;
+    }
+
+    footer .footer_pr h3 {
+        font-size: 15px;
+    }
+
+    footer .footer_pr ul {
+        gap: 5px;
+    }
+
+    footer .footer_pr ul li a {
+        font-size: 14px;
+    }
+
+    /* -------- footer part end --------- */
+    
+} @media (min-width:576px) and (max-width:767px){
+    
+
+    .navbar-brand img{
+        width: 85px;
+    }
+    header nav ul{
+        gap: 5px;
+    }
+    header nav button {
+        background: #1BBF00;
+        font-size: 16px;
+        color: #000000;
+        padding: 3px 4px;
+        margin-top: 10px;
+    }
+    #banner .overlay h1 {
+        font-size: 40px;
+    }
+    #banner .overlay p {
+        font-size: 17px;
+        margin-top: -70px;
+    }
+    #banner .overlay button {
+        font-size: 14px;
+        color: #000000;
+        padding: 10px 20px;
+    }
+    #banner .shap_tow {
+        width: 70px;
+        position: absolute;
+        top: 157px;
+        left: 8px;
+    }
+    #banner .shap_one {
+        width: 45px;
+        position: absolute;
+        bottom: 235px;
+        right: 30px;
+    }
+    #banner .overlay {
+        padding: 140px 0 70px 0;
+    }
+
+    /* -------- banner part end --------- */
+
+
+    /* -------- client part start --------- */
+
+    #client {
+        padding-top: 40px;
+        padding-bottom: 25px;
+        position: relative;
+    }
+    #client .client_deteils01 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils01 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client img {
+        width: 130px;
+    }
+    #client .client_deteils02 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils02 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils03 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils03 p {
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils04 h2 {
+        font-size: 30px;
+    }
+    #client .client_deteils04 p {
+        width: auto;
+        font-size: 19px;
+        margin-top: -20px;
+    }
+    #client .client_deteils01 .border {
+        display: none;
+     }
+    #client .client_deteils02 .border {
+        display: none;
+     }
+    #client .client_deteils03 .border {
+       display: none;
+    }
+
+    /* -------- client part end --------- */
+
+    /* -------- why part start --------- */
+
+    #Why {
+        padding: 40px 1px;
+    }
+
+    #Why .text_design .green_circle {
+        width: 20px;
+        height: 20px;
+       
+    }
+
+    #Why .text_design{
+        margin-left: 130px;
+    }
+
+    #Why .text_design .akasi_circle {
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    #Why .text_design h2 {
+        width: 319px;
+        font-size: 16px;
+    }
+
+    #Why .shap {
+        width: 227px;
+    }
+
+    #Why .text_area h2 {
+        text-align: center;
+        font-size: 30px;
+        color: #141135;
+    }
+
+    #Why .text_area p {
+        width: auto;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    #Why .text_area button {
+        margin-left: 205px;
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    /* -------- why part end --------- */
+
+
+    /* -------- what part start --------- */
+
+    #what {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    #what .item_text{
+        text-align: center;
+    }
+
+    #what .item_text h2 {
+        font-size: 30px;
+    }
+
+    #what .item_text p {
+        width: auto;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #what .item_text button {
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    #what .item .text h2 {
+        width: auto;
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #what .item .text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #what .item a {
+        font-size: 18px;
+    }
+
+    #what .item a::after {
+        width: 22px;
+        height: 26px;
+        top: 0px;
+        right: -7px;
+    }
+
+    /* -------- what part end --------- */
+
+    /* -------- real part start --------- */
+
+    #real {
+        padding: 15px 0px;
+    }
+
+    #real .real_text_part {
+        text-align: center;
+    }
+
+    #real .real_text_part h2 {
+        font-size: 30px;
+    }
+
+    #real .real_text_part p {
+        width: auto;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+    #real .real_img__part img{
+        width: 55px;
+    }
+
+    #real .real_text__part {
+        text-align: left;
+    }
+
+    #real .real_text__part h3 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 5px;
+    }
+
+    #real .real_text__part p {
+        width: auto;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    #real .real_img_part img{
+        width: 100%;
+    }
+
+    /* -------- real part end --------- */
+
+    /* -------- plan part start --------- */
+
+    #plan {
+        padding: 15px 0;
+    }
+
+    #plan h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 31px;
+    }
+
+    #plan .item01 {
+        width: auto;
+        padding: 15px 0;
+        box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.30);
+    }
+
+    #plan .item01 h3 {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+
+    #plan .emozi{
+        width: 100%;
+    }
+
+    #plan .item01 h4 span {
+        font-size: 20px;
+        top: 5px;
+        left: 240px;
+    }
+
+
+    #plan .item01 h4 {
+        font-size: 26px;
+        line-height: 40px;
+        margin-top: 18px;
+    }
+
+    #plan .item01 p {
+        width: auto;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    /* -------- plan part end --------- */
+    
+    /* -------- people part start --------- */
+
+    #people {
+        background: #F8F8FF;
+        padding: 15px 0;
+    }
+
+    #people h2 {
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    #people .img_text {
+        padding: 40px 0px;
+        box-shadow: -15px 30px 50px 0px rgba(0, 0, 0, 0.30);
+    }
+
+    #people .img_text p {
+        width: auto;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    #people .man_img {
+        width: 75px;
+        top: 50px;
+        left: 115px;
+    }
+
+    #people .man_img2 {
+        top: 0px;
+        left: 0px;
+    }
+
+    #people .man_img2 {
+        width: 50px;
+        top: 110px;
+        left: 130px;
+    }
+
+    #people .img_text h3 {
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #people .img_text h4 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* -------- people part end --------- */
+
+    /* -------- like part start --------- */
+
+    #like {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    #like h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: -5px;
+    }
+
+    #like .like_img01 img{
+        width: 100%;
+    }
+
+    #like .like_text {
+        margin-left: 1px;
+    }
+
+    #like .like_text h5 {
+        font-size: 14px;
+    }
+
+    #like .like_text h5 .like_01 {
+        font-size: 14px;
+        margin-left: 6px;
+    }
+
+    #like .like_text h5 .like_02 {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    #like .like_text h5 .like_03 {
+        font-size: 14px;
+        margin-left: 1px;
+    }
+
+    #like .like_text h5 .like_04 {
+        font-size: 14px;
+        margin-left: 1px;
+    }
+
+    #like .like_big_letter {
+        margin-left: 1px;
+    }
+
+    #like .like_big_letter h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #like .like_button a {
+        font-size: 14px;
+    }
+
+    #like .like_button a::after {
+        width: 18px;
+        height: 25px;
+        top: -1px;
+        right: -7px;
+    }
+
+    #like .like_img02 img{
+        width: 100%;
+    }
+
+    #like .like_img02 {
+        margin-top: 20px;
+        margin-bottom: -58px;
+    }
+
+    #like .like_img03 img{
+        width: 100%;
+    }
+
+    #like .like_img {
+       width: 145px;
+    }
+
+    /* -------- like part end --------- */
+
+    /* -------- footer part start --------- */
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    footer .footer_logo img{
+        width: 50px;
+    }
+
+    footer .footer_p {
+        width: auto;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    footer .footer_bottom {
+        margin-top: 30px;
+    }
+
+    footer .footer_bottom p {
+        font-size: 15px;
+    }
+
+    footer .footer_f h3 {
+        font-size: 15px;
+    }
+
+    footer .footer_f ul {
+        gap: 5px;
+    }
+
+    footer .footer_f ul li a {
+        font-size: 14px;
+    }
+
+    footer .footer_pr h3 {
+        font-size: 15px;
+    }
+
+    footer .footer_pr ul {
+        gap: 5px;
+    }
+
+    footer .footer_pr ul li a {
+        font-size: 14px;
+    }
+
+    /* -------- footer part end --------- */
+    
+}

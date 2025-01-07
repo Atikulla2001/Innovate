@@ -1,0 +1,107 @@
+footer{
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background: #48409C;
+    .footer_p{
+        width: 449px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+        color: rgba(254, 254, 254, 0.5);
+        margin-top: 44px;
+        
+    }
+    .footer_f{
+        h3{
+            font-family: "Open Sans", serif;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: rgba(254, 254, 254, 0.5);
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            gap: 20px;
+            li{
+                list-style: none;
+                a{
+                    font-family: "Nunito", serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 120%;
+                    color: rgba(254, 254, 254, 0.5);
+                }
+            }
+        }
+    }
+
+    .footer_pr{
+       
+        h3{
+            font-family: "Open Sans", serif;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            color: rgba(254, 254, 254, 0.5);
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0;
+            li{
+                list-style: none;
+                a{
+                    font-family: "Nunito", serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 120%;
+                    color: rgba(254, 254, 254, 0.5);
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+    .footer_bottom{
+        position: relative;
+        margin-top: 189px;
+        p{
+            font-family: "Nunito", serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+            color: rgba(254, 254, 254, 0.5);
+            .footer_bottom_pri{
+                font-family: "Nunito", serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 180%;
+                color: rgba(254, 254, 254, 0.5);
+                margin-left: 740px;
+                position: absolute;
+                top: 0;
+                right: -380px;
+            }
+            .footer_bottom_ter{
+                font-family: "Nunito", serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 180%;
+                color: rgba(254, 254, 254, 0.5);
+                padding-top: 20px;
+                margin-left: 890px;
+                position: absolute;
+                top: -20px;
+                right: -550px;
+            }
+        }
+    }
+}
